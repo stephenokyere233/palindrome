@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <link rel="stylesheet" href="main.css"> -->
+     <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Poppins:wght@300&family=Sora&family=Source+Sans+Pro:wght@400;900&display=swap"
+      rel="stylesheet"
+    /> -->
+    <title>Document</title>
+</head>
+
+<body class="box-border h-full overflow-hidden flex justify-center w-screen">
+    <div id="wrapper" class="lg:mt-8 px-4 text-[#222222]  bg-gray-100 rounded-lg shadow-lg  border h-screen lg:h-[90vh] w-screen lg:w-[500px] ">
+       <header class="flex justify-between py-4">
+            <h1 class="text-2xl font-bold">palindrome<span class="text-purple-700">Checker</span></h1>
+            <div class="w-[60px] bg-[#222222] overflow-hidden border rounded-full shadow-xl">
+                <img class="object-contain" src="https://res.cloudinary.com/devsteveserver/image/upload/v1658864142/user_celfay.png" alt="">
+            </header>
+            <section class="flex flex-col h-full justify-center">
+                <div class="">
+                    <div class=" text-4xl flex flex-col justify-center items-center ">
+                    <h1 class=" font-bold"> Hey there,</h1>
+                    <span class="font-semibold text-xl">Find out if a word or number is a palindrome here↓</span>
+                </div>
+                
+                <p class="text-[20px] flex justify-center capitalize opacity-50">a word, phrase, or sequence that reads the same backwards as forwards</p>
+                
+                </div>
+                <div class="py-5">
+                    <form action="" id="addform" class=" flex justify-evenly ">
+                    <input class="rounded-xl border md:px-[20px]  md:w-[300px]  text-black  text-xl font-semibold  placeholder:text-center" id="input" placeholder="Word goes Here"  type="text">
+                    <button class=" rounded-[30px] px-10 py-2 font-semibold bg-purple-700 text-xl " type="submit">Check</button>
+                    </form>
+    
+                </div>
+                <p id="new-p" class="pt-10 text-2xl uppercase flex justify-center"></p>
+            </section>
+        </div>
+    </div>
+  
+    <script src="palindrome.js"></script>
+</body>
+</html>
