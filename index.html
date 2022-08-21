@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="main.css">
-     <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Poppins:wght@300&family=Sora&family=Source+Sans+Pro:wght@400;900&display=swap"
       rel="stylesheet"
-    /> -->
+    />
     <!-- Primary Meta Tags -->
 <title>PalindromeCheck —Find a palindrome</title>
 <meta name="title" content="PalindromeCheck —Find a palindrome">
@@ -35,14 +35,14 @@
     
 </head>
 
-<body class="box-border h-full overflow-hidden flex justify-center w-screen">
-    <div id="wrapper" class="lg:mt-8 px-4 text-[#222222]  bg-gray-100 rounded-lg shadow-lg  border h-screen lg:h-[90vh] w-screen lg:w-[500px] ">
-       <header class="flex justify-between py-4">
+<body class="box-border h-full overflow-hidden flex justify-center w-screen bg-gray-100">
+    <div id="wrapper" class="  text-[#222222]  bg-gray-100 border  h-screen  w-screen lg:w-[500px]  ">
+       <header class="flex px-4 justify-between py-2 border-b-2 border-white items-center ">
             <h1 class="text-2xl font-bold">palindrome<span class="text-purple-700">Checker</span></h1>
-            <div class="w-[60px] bg-[#222222] overflow-hidden border rounded-full shadow-xl">
+            <div class="w-[50px] bg-purple-700 overflow-hidden border rounded-full shadow-xl">
                 <img class="object-contain" src="https://res.cloudinary.com/devsteveserver/image/upload/v1658864142/user_celfay.png" alt="">
             </header>
-            <section class="flex flex-col h-full justify-center">
+            <section class="px-4 flex flex-col h-full justify-center">
                 <div class="">
                     <div class=" text-4xl flex flex-col justify-center items-center ">
                     <h1 class=" font-bold"> Hey there,</h1>
@@ -54,14 +54,17 @@
                 </div>
                 <div class="py-5">
                     <form action="" id="addform" class=" flex justify-evenly ">
-                    <input class="w-2/3 rounded-xl border md:px-[20px]  tracking-[0.3em] text-black px-10 text-xl font-semibold  placeholder:text-center shadow-lg " id="input" placeholder="Word goes Here"  type="text">
-                    <button class=" rounded-[30px] px-10 py-2 font-semibold bg-purple-700 text-xl transition duration-500 md:hover:scale-110 hover:opacity-80 " type="submit">Check</button>
+                    <input class="w-2/3 rounded-xl border md:px-[20px] tracking-[0.2em] text-black px-5 text-xl font-semibold  placeholder:text-center placeholder:text-lg shadow-lg " id="input" placeholder="Word goes Here"  type="text">
+                    <button class=" rounded-[30px] px-6 py-2 font-semibold bg-purple-700 text-xl transition duration-500 md:hover:scale-110 md:hover:opacity-100 hover:opacity-80 " type="submit">Check</button>
                     </form>
     
                 </div>
                 <p id="new-p" class="pt-10 text-2xl uppercase flex justify-center"></p>
+                <!-- <button id="mode">press</button> -->
             </section>
+   
         </div>
+       
     </div>
   
     <script src="palindrome.js"></script>
